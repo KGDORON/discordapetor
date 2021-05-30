@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -6,26 +6,18 @@
 </head>
 <body>
     <button onclick="IAMFERYFUNNY()">press here for funny</button>
-    <footer>Apetor#9047</footer>
+
     <script type="text/javascript">
         function IAMFERYFUNNY(){
-            var audio = new Audio('images/1.mp3');
-            audio.play();
+            var audio1 = new Audio('images/1.mp3');
+            var audio2 = new Audio('images/2.mp3');
+            var audio3 = new Audio('images/3.mp3');
+            audio1.play();
+            audio2.play();
+            audio3.play();
             window.open("funni2.html"); 
-
         }
         
-        window.onbeforeunload = function (e) {
-    e = e || window.event;
-
-    // For IE and Firefox prior to version 4
-    if (e) {
-        e.returnValue = 'Sure?';
-    }
-
-    // For Safari
-    return 'Sure?';
-};
     </script>
 </body>
 </html>
